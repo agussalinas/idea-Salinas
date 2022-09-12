@@ -2,10 +2,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: blue;
+    color: whitesmoke;
+    background-color: black;
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     
 
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    align-items: row;
+    border-radius: 10px;
 }
