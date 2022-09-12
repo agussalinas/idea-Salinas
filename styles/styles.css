@@ -2,6 +2,11 @@ body {
     display: flexbox;
     background-color: black;
 }
+
+.cuerpo {
+    background-color: black;
+    color: white;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -48,6 +53,22 @@ p {
 
 div {
     margin-left: 300px;
+}
+
+.contact {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+    background-color: lightgrey;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: black;
+    padding: 05px;
+    border-radius: 05px;
+    width: 80px;
+    cursor:pointer;
 }
 
 
