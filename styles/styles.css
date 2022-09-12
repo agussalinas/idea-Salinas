@@ -1,3 +1,6 @@
+body {
+    background-color: goldenrod;
+}
 header {
     display: flex;
     justify-content: space-between;
