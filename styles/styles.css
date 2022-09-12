@@ -1,3 +1,7 @@
+body {
+    
+    background-color: black;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -14,12 +18,28 @@ header {
 ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100px;
     height: 50px;
-    background-color: goldenrod;
+    background-color: palevioletred;
     color: whitesmoke;
     font-size: 20px;
     align-items: row;
     border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+a {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -20px;
+
+}
+div {
+ margin-left: 200px;
+ 
+    }
