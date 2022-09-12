@@ -2,5 +2,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: blue;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    
 
 }
