@@ -17,10 +17,23 @@ header {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 0px;
+    color: f;
+}
+
+.titulo {
+    font-size: larger;
+    color: goldenrod;
+    text-align: center;
+}
+
+li {
+    color: whitesmoke;
+    justify-content: space-between;
 }
 
 ul{
     display: flex;
+    background-image: linear-gradient(to left, turquoise, fuchsia, violet);
     justify-content: space-between;
     align-items: center;
     width: 100px;
@@ -29,8 +42,30 @@ ul{
     color: whitesmoke;
     font-size: 20px;
     align-items: row;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+form {
+    color: whitesmoke;
+}
+
+.button {
+    background-image: linear-gradient(rgb(33, 126, 202), rgb(12, 74, 124));
+  font-size: 1.5rem;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: padding 0.3s ease;
+
+}
+
+.button:hover {
+    padding: 1rem;
+
 }
 
 
