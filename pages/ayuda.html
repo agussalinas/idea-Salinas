@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
-<body class="cuerpo">
-<main>
+<body class="conteiner">
 <form >
-    <h1 class="contact"> Para realizar consultas sobre tus compras completa el siguiente formulario o envianos un mail a infocl@caralcal.com</h1>
+  <section class="row">
+    <section class="col">
+    <h1 class="contact"> Para realizar consultas sobre tus compras completa el siguiente formulario o envianos un mail a info@medusanails.com</h1>
+  </section>
+</section>
+<section class="row">
+  <section class="col-sm-12 col-md-12 col-lg-7">
     <label for="Nombre">Nombres*:</label><br>
     <input type="text" id="Nombre" name="Nombre"><br>
     <label for="Apellido">Apellidos*:</label><br>
@@ -21,14 +27,16 @@
         <input type="text" id="mail" name="mail"><br>
         <label for="text">Mensaje*:</label><br>
         <input type="text" id="texto" name="mensaje"><br>
-        <button>enviar</button>
-  </form>
-</html>
-</main>
+        <buttonbtn class="btn btn-secondary">enviar</button>
+      </section>
+      <section class="col-sm-12 col-md-12 col-lg-5">
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.444294488860415%2C-34.610405630163726%2C-58.42825487895136%2C-34.603341178784476&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=17/-34.60687/-58.43627">Ver mapa más grande</a></small>
+      </section>
+    </section>
 <footer class="piedepagina">
-  <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.444294488860415%2C-34.610405630163726%2C-58.42825487895136%2C-34.603341178784476&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=17/-34.60687/-58.43627">Ver mapa más grande</a></small>
   <p class="piedepagina__links">&copy Agustín Salinas</p>
-  <button class="button"> <a href="../index.html" target="_blank"  title="Inicio"> Inicio </a> </button>
-</footer>             
+  <button class="btn btn-secondary btn-lg"> <a href="../index.html" target="_blank"  title="Inicio"> Inicio </a> </button>
+</footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>           
 </body>
 </html
