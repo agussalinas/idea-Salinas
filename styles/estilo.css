@@ -133,3 +133,51 @@
   .btn-click:active {
     padding: 1rem;
   }
+
+  
+      
+  @media screen and (min-width: 600px) {
+    .grilla {
+      grid-template-areas: 
+      "cabecera cabecera"
+      "nav productos"
+      "publicidad servicios"
+      "footer footer";
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      height: 100vh;
+      row-gap: 0px;
+      column-gap: 0px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .grilla {
+      grid-template-areas: 
+      "cabecera cabecera cabecera"
+      "nav productos publicidad"
+      "nav servicios publicidad"
+      "footer footer footer";
+      grid-template-rows: 1fr 2fr 1fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+      height: 100vh;
+      row-gap: 10px;
+      column-gap: 10px;
+    }
+  }
+  
+  
+  @media print {
+    .grilla {
+      grid-template-areas: 
+      "cabecera cabecera cabecera"
+      "nav productos publicidad"
+      "nav servicios publicidad"
+      "footer footer footer";
+      grid-template-rows: 1fr 2fr 1fr 1fr;
+      grid-template-columns: 1fr 4fr 1fr;
+      height: 100vh;
+      row-gap: 10px;
+      column-gap: 10px;
+    }
+  }
