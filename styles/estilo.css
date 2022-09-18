@@ -2,20 +2,56 @@
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-bottom : -50px;
 }
 
 
-.cabecera__links {
-    justify-content: center;
+.row {
+    text-decoration-style: none;
+    list-style: none;
+    color: black;
+    text-align: center;
+    justify-content: flex-start;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 30px;
-    list-style: none;
     border-radius: 05px;
-    padding: 50px;
-    text-align: center;
-    margin-bottom: 60px;
+    margin-left: -100;
+    row-gap: 100%;
+    justify-content: space-around;
+    height: 400px;
+   align-items: flex-start;
+
+
 }
+
+
+
+.fila {
+    margin-bottom: 500px;
+}
+
+.card {
+    margin-top: 100px;
+    justify-content: space-between;
+    
+
+}
+
+.link-dark{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-decoration: none;
+    text-align: justify;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.card-body {
+    background-image: linear-gradient(to left, black, violet, turquoise);
+    margin-top: -100px;
+    
+}
+
+
 
 .cabecera__links li {
     color: black;
@@ -46,7 +82,6 @@
 
 .articulo p {
     background-color: black;
-    margin-top: 60px;
 }
 
 .articulo__contenido {
