@@ -1,61 +1,46 @@
 .tittle {
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
     text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 500px;
+    margin-bottom: -100px;
 }
 
+.tittle_1 {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    text-align: start;
+    align-items: flex-start;
+    justify-items: start;
+    margin-left: -20px;
+    margin-top: 35px;
+    margin-bottom: -100px;
+}
 
-.row {
-    text-decoration-style: none;
-    list-style: none;
-    color: black;
-    text-align: center;
-    justify-content: flex-start;
+.cabecera {
+    display: flex;
+    align-items: center;
+
+} 
+
+.cabecera__links {
+    justify-content: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 30px;
+    list-style: none;
     border-radius: 05px;
-    margin-left: -100;
-    row-gap: 100%;
-    justify-content: space-around;
-    height: 400px;
-   align-items: flex-start;
-
-
+    padding: 50px;
+    text-align: center;
 }
-
-
-
-.fila {
-    margin-bottom: 500px;
-}
-
-.card {
-    margin-top: 100px;
-    justify-content: space-between;
-    
-
-}
-
-.link-dark{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
-    text-decoration: none;
-    text-align: justify;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.card-body {
-    background-image: linear-gradient(to left, whitesmoke, violet, turquoise);
-    margin-top: -100px;
-    
-}
-
 
 
 .cabecera__links li {
     color: black;
-    background-image: linear-gradient( to left, lightblue, pink, black);
+    background-image: linear-gradient( to left, lightblue, whitesmoke, black);
     justify-content: space-between;
     width: 200px;
     text-align: center;
@@ -64,6 +49,7 @@
     border-color: lightblue;
     border-style:groove;
     border-radius: 05px;
+
 }
 
 
@@ -72,6 +58,17 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.carousel-item {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border: solid;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin-left: 250px;
+
+}
 
 .contact {
     color: black;
@@ -106,27 +103,51 @@
 
 }
 
-.imagen {
-    margin-left: 60px;
-    margin-top: 40px;
-    cursor:pointer;
+.row {
+    text-decoration-style: none;
+    list-style: none;
+    color: white;
     text-align: center;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 05px;
+    justify-content: space-around;
+    height: 150px;
+    align-items: flex-start;
+
 }
 
-.imagen__b {
-    margin-left: 30px;
-    margin-top: 40px;
-    cursor:pointer;
-    text-align: center;
+
+.link-dark{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-decoration: none;
+    text-align: justify;
+    justify-content: center;
+    justify-content: space-between;
 }
 
+.card {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 18rem;
+   
+   
+}
+
+.card-body {
+    background-image: linear-gradient(to left, black, whitesmoke, turquoise);
+    color: black;
+  
+}
 
 
 .contenedor {
     border: solid;
+    color: black;
     background-image: linear-gradient(to right, white, blue);
-    margin-left: 150px;
-    margin-top: 60px;
+    margin-left: 100px;
+    margin-top: 400px;
     padding: 10px;
     display: inline-block;
     font-size: 25px;
@@ -134,6 +155,10 @@
     width: 1000px;
     height: 100px;
     overflow: auto;
+}
+
+.imagen__b {
+    margin-top: 100px;
 }
 
 
