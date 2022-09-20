@@ -1,3 +1,9 @@
+.container-fluid {
+    background-color: black;
+
+}
+
+
 .tittle {
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -193,3 +199,66 @@
   .btn-click:active {
     padding: 1rem;
   }
+
+  .animacionUno,
+.animacionDos {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.animacionUno {
+  background-color: yellow;
+  animation-name: efectoUno;
+  animation-iteration-count: infinite;
+  animation-duration: 120s;
+}
+
+.animacionDos {
+  margin-top: 10px;
+  border: 04px solid;
+  animation-name: efectoDos;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 02s;
+}
+
+@keyframes efectoUno {
+  0% {
+    background-color: blue;
+  }
+  17% {
+    background-color: lawngreen;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: pink;
+  }
+  100% {
+    background-color: indianred;
+  }
+}
+
+@keyframes efectoDos {
+  0% {
+    transform: scale(1, 1) (10px);
+  }
+  25% {
+    transform: scale(0.5, 0.5) translateX(30px);
+  }
+  50% {
+    transform: scale(0.2, 0.2) translateX(50px);
+  }
+  75% {
+    transform: scale(0.5, 0.5) translateX(70px);
+  }
+  100% {
+    transform: scale(1, 1) translateX(10px);
+  }
+}
