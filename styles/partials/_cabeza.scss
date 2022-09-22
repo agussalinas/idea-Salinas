@@ -1,0 +1,36 @@
+.cabeza {
+    .tittle {
+    color: $colorTextTittle;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom : -50px;
+    transition: all 0.5s easy;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        height: 30px;
+        list-style: none;
+        border-radius: 05px;
+        padding: 50px;
+        text-align: center;
+        margin-bottom: 60px;
+        li {
+           color: black;
+           background-image: linear-gradient( to left, lightblue, pink, black);
+           justify-content: space-between;
+           width: 200px;
+           text-align: center;
+           display: inline-block;
+           padding: 20px;
+           border-color: lightblue;
+           border-style:groove;
+           border-radius: 05px;
+           a {
+              color: black;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    }
+    }
+}
