@@ -1,0 +1,156 @@
+
+.chv:hover{
+color:white;
+text-decoration: none;
+}
+
+.mrg{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 27px;
+}
+p{display:inline;   
+  color:black;
+    font-size: 20px;
+}
+
+main{
+	background-color: whitesmoke;
+	  font-family: "Quicksand", sans-serif;
+}
+
+
+.dropdown-item {
+color:#e591da !important;
+}
+.dropdown-item:hover{
+color:deeppink !important;
+}
+
+.img-with-text img {
+    display: inline;
+	justify-items: center
+}
+
+.fts{
+	background-color: black;
+}
+
+.img-with-text {
+  
+    width: 178px;
+	display:inline-grid;
+	text-align:center;
+	  margin-top: 1em;
+    margin-left: 0em;
+	margin-bottom: 1em;
+}
+
+
+.imagen1{
+	padding-top: 0.5em;
+    margin-top: 0.5em;
+	margin-bottom: 1em;
+display:block;
+    margin-left: auto;
+    margin-right: auto;
+max-width:100%;
+height:127px;
+}
+
+header{
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+main{
+    display:inline
+}
+
+footer{ display:block;
+    background-color:bisque;
+	text-align:center
+}
+  
+
+
+
+
+.circ {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  overflow: hidden;
+	position: relative;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
+.circ img{
+  width:100%;
+}
+
+h1,h2{
+    background-color: deeppink;
+	color:whitesmoke !important;
+	padding: 0.1em;
+	display:block;
+	text-align: center;
+}
+
+.rounded-circle{
+	width: 200px;
+	height: 200px;
+	
+}
+.rounded-circle img {
+	display: block;
+	text-align: center;
+}
+a:link {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  background-color: transparent;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none ;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lnk:link {
+    color:gray;
+    text-decoration: none;
+}
+
+.lnk:hover {
+	color:black;
+	text-decoration: underline;
+}
+.nbfont {
+	font-family: adobe-garamond-pro, serif;
+font-size: 20px;
+font-style:normal;
+	
+}
+
+.nav-link {
+color:#e591da !important;
+}
+.nav-link:hover {
+	color:deeppink !important;
+}
