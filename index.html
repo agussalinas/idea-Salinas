@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="caracal, caracal indumentaria, mujer, hombre, accesorios, "> 
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body background="images/fondo.jpeg" class="body">
 <header class="cabeza">
         <h1 class="tittle"> Caracal </h1>
+        <input class="btn-click" type="submit" value="Carrito"> 
     <ul class="cabecera__links">
         <li> <a href="pages/mujer.html" target="_top"  title="MUJER"> MUJER </a> </li>
         <li> <a href="pages/hombre.html" target="_top"  title="HOMBRE"> HOMBRE </a> </li>
@@ -26,7 +30,34 @@
         <label>Deseas suscribirte?</label>
         <input class="btn-click" type="submit" value="si"> 
         <button class="btn-click">no</button>
-    </form>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <section class="carrusel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/boots.jpeg" width="1000px" height="600px"  alt="Estilo">
+              </div>
+              <div class="carousel-item">
+                <img src="images/bota.jpeg" width="1000px" height="600px" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/cuerpo.jpeg" width="1000px" height="600px" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
    <div class="imagen">
     <img class="btn-click" src="images/cuerpo.jpeg" alt="menstyle" width="300" height="300">
     <img class="btn-click" src="images/gorra.jpeg" alt="mencap" width="300" height="300">
@@ -47,4 +78,6 @@
     </ul>
 </footer>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </html>

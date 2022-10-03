@@ -1,8 +1,10 @@
 .cabeza {
+    display: flex;
+    background-color: black;
     .tittle {
     color: $colorTextTittle;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    text-align: left;
     margin-bottom : -50px;
     transition: all 0.5s easy;
     }
