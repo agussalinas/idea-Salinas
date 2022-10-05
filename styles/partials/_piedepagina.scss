@@ -1,13 +1,15 @@
-.piedepagina {
-    color: black;
+.footer {
+    background-color: white;
+    color: whitesmoke;
     text-align: end;
-    .piedepagina__links {
+    .footer__links {
+        background-color: white;
         font-style: oblique;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-top: 10px;
-        .piedepagina__links--inicio {
+        p {
             color: whitesmoke;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
+        
     }
 }
