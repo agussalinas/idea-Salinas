@@ -1,4 +1,4 @@
-.desarrollo {
+.carouselslide {
 
     .btn-click {
             background-image: radial-gradient( lightblue, black);
@@ -9,7 +9,14 @@
             padding: 0.5rem;
             cursor: pointer;
     }
-    
+    img {
+        display: flexbox;
+        margin-left: 60px;
+        margin-top: 40px;
+        cursor:pointer;
+        text-align: center;
+        justify-content: center;
+    }
     
     .articulo p {
         background-color: black;
@@ -43,14 +50,7 @@
     }
     
     
-    .imagen {
-        display: flexbox;
-        margin-left: 60px;
-        margin-top: 40px;
-        cursor:pointer;
-        text-align: center;
-    }
-    
+
     .imagen__b {
         margin-left: 30px;
         margin-top: 40px;
