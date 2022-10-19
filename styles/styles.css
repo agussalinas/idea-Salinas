@@ -1,32 +1,30 @@
-.cabeza {
+.texto{
+  color: aliceblue;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+text-align: center;
+font-style:oblique;
+color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
   background-color: black;
 }
 
-.cabeza h1 {
-  font-size: large;
+li {
+  color: red;
+ 
 }
 
-.cabeza h2 {
-  color
+a {
+  color: gray;
 }
-
-.row {
-  align-items: right;
-  text-align: center;
-      
-    
-      
-    }
-  }
-  
-  
-}
-
-
-.cartas {
-  display: flexbox;
-  flex-wrap:wrap-reverse;
-}
-
 
 /*# sourceMappingURL=styles.css.map */
