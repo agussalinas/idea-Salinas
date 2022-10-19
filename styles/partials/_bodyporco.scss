@@ -1,0 +1,36 @@
+.bodyporco {
+    background-color: red;
+
+    .navbar {
+        background-color: red;
+        color: whitesmoke;
+      }
+      
+    .texto{
+        color: aliceblue;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        h1 {
+            text-align: center;
+            font-style:oblique;
+            color: red;
+            }
+            
+            h2 {
+              text-align: center;
+            }
+            
+            p {
+             
+            }
+            
+            li {
+              margin-left: 100px;
+              color: whitesmoke;
+            }
+            
+            a {
+              color: whitesmoke;
+            }
+      }
+  }

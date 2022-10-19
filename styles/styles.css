@@ -1,3 +1,11 @@
+.bodyporco {
+  background-color: red;
+}
+
+.bodytesoro {
+  background-color: black;
+}
+
 .texto{
   color: aliceblue;
   font-size: large;
@@ -12,19 +20,32 @@ color: red;
 
 h2 {
   text-align: center;
+  color: whitesmoke;
 }
 
 p {
-  background-color: black;
+ color: whitesmoke;
 }
 
 li {
-  color: red;
- 
+  margin-left: 50px;
+  color: whitesmoke;
 }
 
 a {
-  color: gray;
+  color: whitesmoke;
+}
+
+.navbar {
+  background-color: red;
+  color: whitesmoke;
+}
+.navbar-brand {
+  color: whitesmoke;
+}
+
+.nav-item {
+  color: whitesmoke;
 }
 
 /*# sourceMappingURL=styles.css.map */
