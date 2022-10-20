@@ -6,6 +6,20 @@
   background-color: black;
 }
 
+.bodyperfume {
+  background: linear-gradient(gold, black)
+
+}
+
+.bodyruiseñor {
+  background: linear-gradient(white,black);
+  color: black;
+}
+
+.bodypajaritos {
+  background: linear-gradient(lightblue, grey);
+}
+
 .texto{
   color: aliceblue;
   font-size: large;
@@ -33,19 +47,9 @@ li {
 }
 
 a {
-  color: whitesmoke;
+  color: whitesmoke !important;
 }
 
-.navbar {
-  background-color: red;
-  color: whitesmoke;
-}
-.navbar-brand {
-  color: whitesmoke;
-}
 
-.nav-item {
-  color: whitesmoke;
-}
 
 /*# sourceMappingURL=styles.css.map */
