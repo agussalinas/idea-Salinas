@@ -27,6 +27,47 @@
   color: whitesmoke !important;
 }
 
+.bodynov {
+ background-image: linear-gradient(black,darkgrey,black);
+}
+
+.bodynov .contenedor {
+  border: solid;
+  border-color: black;
+  background-color: darkslategray;
+  margin-left: 150px;
+  margin-top: 60px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 1000px;
+  height: 400px;
+  overflow: auto;
+  color: whitesmoke;
+
+}
+
+.bodynov .contenedor h4 {
+  color: aliceblue;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bodynov .contenedor p {
+  color: aliceblue;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bodynov  a {
+  color:whitesmoke
+}
+
+.bodynov  li {
+  color:whitesmoke
+}
+
 .bodytesoro {
   background-color: black;
 }
@@ -97,7 +138,7 @@
   color: black !important;
 }
 .bodyruiseñor h1 a {
-  color:black;
+  color: whitesmoke;
 }
 .bodyruiseñor h2 {
   text-align: center;
@@ -112,7 +153,7 @@
   color: whitesmoke;
 }
 .bodyruiseñor a {
-  color: whitesmoke;
+  color: whitesmoke !important;
 }
 
 .bodypajaritos {
@@ -141,16 +182,4 @@
 }
 .bodypajaritos a {
   color: whitesmoke !important;
-}
-
-.footer {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-}
-
-.conteiner {
-  height: 300px;
-  width: 300px;
-  border: 10px;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
