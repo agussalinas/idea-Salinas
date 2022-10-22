@@ -1,55 +1,156 @@
+@charset "UTF-8";
 .bodyporco {
   background-color: red;
+}
+.bodyporco .texto {
+  color: aliceblue;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyporco h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.bodyporco h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bodyporco p {
+  color: whitesmoke;
+}
+.bodyporco li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodyporco a {
+  color: whitesmoke !important;
 }
 
 .bodytesoro {
   background-color: black;
 }
+.bodytesoro .texto {
+  color: aliceblue;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodytesoro h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.bodytesoro h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bodytesoro p {
+  color: whitesmoke;
+}
+.bodytesoro li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodytesoro a {
+  color: whitesmoke !important;
+}
 
 .bodyperfume {
-  background: linear-gradient(gold, black)
-
+  background: linear-gradient(gold, black);
+}
+.bodyperfume .texto {
+  color: aliceblue;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyperfume h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.bodyperfume h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bodyperfume p {
+  color: whitesmoke;
+}
+.bodyperfume li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodyperfume a {
+  color: whitesmoke !important;
 }
 
 .bodyruiseñor {
-  background: linear-gradient(white,black);
+  background: linear-gradient(white, black);
+}
+.bodyruiseñor .texto {
   color: black;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyruiseñor h1 {
+  text-align: center;
+  font-style: oblique;
+  color: black !important;
+}
+.bodyruiseñor h1 a {
+  color:black;
+}
+.bodyruiseñor h2 {
+  text-align: center;
+  color: black;
+}
+.bodyruiseñor p {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyruiseñor li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodyruiseñor a {
+  color: whitesmoke;
 }
 
 .bodypajaritos {
   background: linear-gradient(lightblue, grey);
 }
-
-.texto{
-  color: aliceblue;
+.bodypajaritos .texto {
+  color: black;
   font-size: large;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
-h1 {
-text-align: center;
-font-style:oblique;
-color: red;
+.bodypajaritos h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
 }
-
-h2 {
+.bodypajaritos h2 {
   text-align: center;
   color: whitesmoke;
 }
-
-p {
- color: whitesmoke;
+.bodypajaritos p {
+  color: whitesmoke;
 }
-
-li {
+.bodypajaritos li {
   margin-left: 50px;
   color: whitesmoke;
 }
-
-a {
+.bodypajaritos a {
   color: whitesmoke !important;
 }
 
+.footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
 
-
+.conteiner {
+  height: 300px;
+  width: 300px;
+  border: 10px;
+}
 /*# sourceMappingURL=styles.css.map */

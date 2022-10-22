@@ -1,10 +1,174 @@
-@import "./partials/_cabeza";
-@import "./partials/_maps";
-@import "./partials/_body";
-@import "./partials/_buscador";
-@import "./partials/_desarrollo";
-@import "./partials/_piedepagina";
-@import "./partials/_bodyporco";
+.bodyporco {
+    background-color: red;
+    .texto{
+        color: aliceblue;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: red;
+      }
+      
+      h2 {
+        text-align: center;
+        color: whitesmoke;
+      }
+      
+      p {
+       color: whitesmoke;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+  }
+  
+  .bodytesoro {
+    background-color: black;
 
-    
+    .texto{
+        color: aliceblue;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: red;
+      }
+      
+      h2 {
+        text-align: center;
+        color: whitesmoke;
+      }
+      
+      p {
+       color: whitesmoke;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+  }
+  
+  .bodyperfume {
+    background: linear-gradient(gold, black);
 
+    .texto{
+        color: aliceblue;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: red;
+      }
+      
+      h2 {
+        text-align: center;
+        color: whitesmoke;
+      }
+      
+      p {
+       color: whitesmoke;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+  
+  }
+  
+  .bodyruiseñor {
+    background: linear-gradient(white,black);
+
+    .texto{
+        color: black;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: black !important;
+      a {
+        color: whitesmoke;
+      }
+      }
+      
+      h2 {
+        text-align: center;
+        color:black;
+      }
+      
+      p {
+       color: black;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+   
+  }
+  
+  .bodypajaritos {
+    background: linear-gradient(lightblue, grey);
+
+    .texto{
+        color: black;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: red;
+      }
+      
+      h2 {
+        text-align: center;
+        color: whitesmoke;
+      }
+      
+      p {
+       color: whitesmoke;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+  }
