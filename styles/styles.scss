@@ -23,6 +23,7 @@
     background-color: red;
     .texto{
         color: aliceblue;
+        justify-content: center;
         font-size: large;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
@@ -40,6 +41,7 @@
       
       p {
        color: whitesmoke;
+       justify-content: center;
       }
       
       li {
@@ -50,6 +52,15 @@
       a {
         color: whitesmoke !important;
       }
+  }
+
+  .bodyporco .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
   }
   
   .bodytesoro {
@@ -85,6 +96,15 @@
         color: whitesmoke !important;
       }
   }
+
+  .bodytesoro .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
+  }
   
   .bodynov {
     background-image: linear-gradient(rgb(58, 39, 39), black);
@@ -112,6 +132,15 @@
   .bodynov .contenedor h4 {
     color: whitesmoke;
     font-size: 30px;
+  }
+
+  .bodynov .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
   }
 
  
@@ -149,6 +178,15 @@
         color: whitesmoke !important;
       }
   
+  }
+
+  .bodyperfume .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
   }
   
   .bodyruiseñor {
@@ -189,6 +227,16 @@
       }
    
   }
+
+  .bodyruiseñor .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
+
+  }
   
   .bodypajaritos {
     background: linear-gradient(lightblue, grey);
@@ -224,13 +272,11 @@
       }
   }
 
-.img .row a {
-  margin-top: 300px;
-  margin-left: 200px;
-
-}
-
-.img-with-text col {
-  margin-top: 100px;
-  margin-left: 100px;
-}
+  .bodypajaritos .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
+  }

@@ -24,6 +24,7 @@
 }
 .bodyporco .texto {
   color: aliceblue;
+  justify-content: center;
   font-size: large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -38,6 +39,7 @@
 }
 .bodyporco p {
   color: whitesmoke;
+  justify-content: center;
 }
 .bodyporco li {
   margin-left: 50px;
@@ -45,6 +47,15 @@
 }
 .bodyporco a {
   color: whitesmoke !important;
+}
+
+.bodyporco .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
 }
 
 .bodytesoro {
@@ -73,6 +84,15 @@
 }
 .bodytesoro a {
   color: whitesmoke !important;
+}
+
+.bodytesoro .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
 }
 
 .bodynov {
@@ -104,6 +124,15 @@
   font-size: 30px;
 }
 
+.bodynov .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+}
+
 .bodyperfume {
   background: linear-gradient(gold, black);
 }
@@ -130,6 +159,15 @@
 }
 .bodyperfume a {
   color: whitesmoke !important;
+}
+
+.bodyperfume .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
 }
 
 .bodyruiseñor {
@@ -164,6 +202,15 @@
   color: whitesmoke !important;
 }
 
+.bodyruiseñor .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+}
+
 .bodypajaritos {
   background: linear-gradient(lightblue, grey);
 }
@@ -192,20 +239,11 @@
   color: whitesmoke !important;
 }
 
-.discos {
-  display: inline-grid;
-  flex-direction: row;
-  flex-grow: 1;
-  border-color: black;
-  background-color: rgb(64, 51, 51);
-  margin-left: 150px;
-  margin-top: 60px;
-  padding: 10px;
-  display: inline-block;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  width: 1000px;
-  height: 500px;
+.bodypajaritos .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
   overflow: auto;
-  color: whitesmoke;
 }/*# sourceMappingURL=styles.css.map */
