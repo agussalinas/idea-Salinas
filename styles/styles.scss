@@ -1,3 +1,20 @@
+.cuerpo {
+  background-color: black;
+}
+
+.cuerpo .row {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 100px;
+  color: black;
+}
+
+.cuerpo .row h9 {
+  color: whitesmoke;
+
+}
+
 .bodyporco {
     background-color: red;
     .texto{
@@ -68,6 +85,11 @@
   .bodynov {
     background-color: grey;
   }
+
+
+
+
+  
   .bodyperfume {
     background: linear-gradient(gold, black);
 

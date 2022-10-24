@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.cuerpo {
+  background-color: black;
+}
+
+.cuerpo .row {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 100px;
+  color: black;
+}
+
+.cuerpo .row h9 {
+  color: whitesmoke;
+}
+
 .bodyporco {
   background-color: red;
 }
@@ -56,29 +72,9 @@
 }
 
 .bodynov {
-  background-image: linear-gradient(rgb(58, 42, 42), black);
+  background-color: grey;
 }
 
-.bodynov .contenedor {
-  border: solid;
-  border-color: black;
-  color: whitesmoke;
-  background-color: rgb(36, 39, 39);
-  margin-left: 150px;
-  margin-top: 60px;
-  padding: 10px;
-  display: inline-block;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  width: 1000px;
-  height: 400px;
-  overflow: auto;
-}
-
-.bodynov .contenedor h4 {
-  font-size: 30px;
-  color: whitesmoke;
-}
 .bodyperfume {
   background: linear-gradient(gold, black);
 }
