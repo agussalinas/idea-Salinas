@@ -15,6 +15,10 @@
   color: whitesmoke;
 }
 
+.cuerpo .nav-item a {
+  color: white;
+}
+
 .bodyporco {
   background-color: red;
 }
@@ -186,4 +190,22 @@
 }
 .bodypajaritos a {
   color: whitesmoke !important;
+}
+
+.discos {
+  display: inline-grid;
+  flex-direction: row;
+  flex-grow: 1;
+  border-color: black;
+  background-color: rgb(64, 51, 51);
+  margin-left: 150px;
+  margin-top: 60px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 1000px;
+  height: 500px;
+  overflow: auto;
+  color: whitesmoke;
 }/*# sourceMappingURL=styles.css.map */
