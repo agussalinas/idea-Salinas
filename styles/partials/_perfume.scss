@@ -1,0 +1,67 @@
+.bodyperfume {
+    background: linear-gradient(gold, black);
+
+    .texto{
+        color: aliceblue;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: red;
+      }
+      
+      h2 {
+        text-align: center;
+        color: whitesmoke;
+      }
+      
+      p {
+       color: whitesmoke;
+       margin-left: 50px;
+       margin-right: 50px;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+  
+  }
+
+  
+  .bodyperfume .carousel-item {
+    align-content: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.bodyperfume h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 100px;
+}
+
+  .bodyperfume .block {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
+  }
+
+  .bodyperfume .footer {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 100px;
+  }

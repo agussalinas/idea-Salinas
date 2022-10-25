@@ -1,4 +1,50 @@
 @charset "UTF-8";
+.cuerpo2 {
+  background-color: rgb(150, 0, 0);
+}
+.cuerpo2 .texto {
+  color: black;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.cuerpo2 h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.cuerpo2 h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.cuerpo2 p {
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cuerpo2 li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.cuerpo2 a {
+  color: whitesmoke !important;
+}
+
+.cuerpo2 .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+}
+
+.cuerpo2 .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
 .cuerpo {
   background-color: black;
 }
@@ -393,52 +439,6 @@
 }
 
 .bodypajaritos .footer {
-  color: whitesmoke;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.cuerpo2 {
-  background-color: rgb(150, 0, 0);
-}
-.cuerpo2 .texto {
-  color: black;
-  font-size: large;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.cuerpo2 h1 {
-  text-align: center;
-  font-style: oblique;
-  color: red;
-}
-.cuerpo2 h2 {
-  text-align: center;
-  color: whitesmoke;
-}
-.cuerpo2 p {
-  color: whitesmoke;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.cuerpo2 li {
-  margin-left: 50px;
-  color: whitesmoke;
-}
-.cuerpo2 a {
-  color: whitesmoke !important;
-}
-
-.cuerpo2 .block {
-  width: 100%;
-  margin-left: 100px;
-  margin-top: 100px;
-  display: grid;
-  padding: 20px;
-  overflow: auto;
-}
-
-.cuerpo2 .footer {
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;

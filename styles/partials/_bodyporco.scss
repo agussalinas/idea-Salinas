@@ -1,36 +1,68 @@
 .bodyporco {
-    background-color: red;
+  background-color: red;
+  .textop{
+      color: aliceblue;
+      justify-content: center;
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    h1 {
+    text-align: center;
+    font-style:oblique;
+    
+    }
+    
+    h2 {
+      text-align: center;
+      color: whitesmoke;
+    }
+    
+    p {
+     color: whitesmoke;
+     justify-content: center;
+     margin-left: 50px;
+     margin-right: 50px;
+    }
+    
+    li {
+      margin-left: 50px;
+      color: whitesmoke;
+    }
+    
+    a {
+      color: whitesmoke !important;
+    }
 
-    .navbar {
-        background-color: red;
-        color: whitesmoke;
-      }
-      
-    .texto{
-        color: aliceblue;
-        font-size: large;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        h1 {
-            text-align: center;
-            font-style:oblique;
-            color: red;
-            }
-            
-            h2 {
-              text-align: center;
-            }
-            
-            p {
-             
-            }
-            
-            li {
-              margin-left: 100px;
-              color: whitesmoke;
-            }
-            
-            a {
-              color: whitesmoke;
-            }
-      }
-  }
+    
+}
+
+.bodyporco .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyporco h3 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: justify;
+color: whitesmoke;
+font-size: large;
+margin-top: 100px;
+}
+
+.bodyporco .block {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+}
+
+.bodyporco .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-top: 100px;
+}
