@@ -1,0 +1,32 @@
+.cuerpo {
+    background-color: black;
+  }
+  
+  .cuerpo .row {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    color: black;
+  }
+  
+  .cuerpo .row .col  h1 {
+    color: whitesmoke;
+    text-align: justify;
+    font-size: medium;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  
+  .cuerpo .nav-item a {
+    color: white;
+  }
+  
+  .cuerpo .footer {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  

@@ -11,18 +11,29 @@
   color: black;
 }
 
-.cuerpo .row h9 {
+.cuerpo .row .col h1 {
   color: whitesmoke;
+  text-align: justify;
+  font-size: medium;
+  margin-right: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .cuerpo .nav-item a {
   color: white;
 }
 
+.cuerpo .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
 .bodyporco {
   background-color: red;
 }
-.bodyporco .texto {
+.bodyporco .textop {
   color: aliceblue;
   justify-content: center;
   font-size: large;
@@ -31,7 +42,6 @@
 .bodyporco h1 {
   text-align: center;
   font-style: oblique;
-  color: red;
 }
 .bodyporco h2 {
   text-align: center;
@@ -40,6 +50,8 @@
 .bodyporco p {
   color: whitesmoke;
   justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .bodyporco li {
   margin-left: 50px;
@@ -49,6 +61,20 @@
   color: whitesmoke !important;
 }
 
+.bodyporco .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyporco h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: large;
+  margin-top: 100px;
+}
+
 .bodyporco .block {
   width: 100%;
   margin-left: 100px;
@@ -56,6 +82,13 @@
   display: grid;
   padding: 20px;
   overflow: auto;
+}
+
+.bodyporco .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .bodytesoro {
@@ -77,6 +110,9 @@
 }
 .bodytesoro p {
   color: whitesmoke;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .bodytesoro li {
   margin-left: 50px;
@@ -84,6 +120,19 @@
 }
 .bodytesoro a {
   color: whitesmoke !important;
+}
+
+.bodytesoro .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodytesoro h3 {
+  margin-top: 100px;
+  color: lightgray;
+  font-style: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .bodytesoro .block {
@@ -95,8 +144,18 @@
   overflow: auto;
 }
 
+.bodytesoro .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
 .bodynov {
   background-image: linear-gradient(rgb(58, 39, 39), black);
+}
+.bodynov a {
+  color: whitesmoke !important;
 }
 
 .bodynov .nav-item a {
@@ -113,6 +172,7 @@
   display: inline-block;
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
   width: 1000px;
   height: 500px;
   overflow: auto;
@@ -131,6 +191,13 @@
   display: grid;
   padding: 20px;
   overflow: auto;
+}
+
+.bodynov .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .bodyperfume {
@@ -152,6 +219,8 @@
 }
 .bodyperfume p {
   color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .bodyperfume li {
   margin-left: 50px;
@@ -161,6 +230,20 @@
   color: whitesmoke !important;
 }
 
+.bodyperfume .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyperfume h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 100px;
+}
+
 .bodyperfume .block {
   width: 100%;
   margin-left: 100px;
@@ -168,6 +251,13 @@
   display: grid;
   padding: 20px;
   overflow: auto;
+}
+
+.bodyperfume .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .bodyruiseñor {
@@ -184,7 +274,7 @@
   color: black !important;
 }
 .bodyruiseñor h1 a {
-  color: whitesmoke;
+  color: black;
 }
 .bodyruiseñor h2 {
   text-align: center;
@@ -192,6 +282,8 @@
 }
 .bodyruiseñor p {
   color: black;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .bodyruiseñor li {
@@ -202,6 +294,35 @@
   color: whitesmoke !important;
 }
 
+.bodyruiseñor .cabeza h1 a {
+  color: black !important;
+}
+
+.bodyruiseñor .cabeza .row a {
+  color: black !important;
+}
+
+.bodyruiseñor h3 {
+  color: black;
+  font-size: medium;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.bodyruiseñor .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyruiseñor h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 100px;
+}
+
 .bodyruiseñor .block {
   width: 100%;
   margin-left: 100px;
@@ -209,6 +330,13 @@
   display: grid;
   padding: 20px;
   overflow: auto;
+}
+
+.bodyruiseñor .footer p {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .bodypajaritos {
@@ -230,6 +358,8 @@
 }
 .bodypajaritos p {
   color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .bodypajaritos li {
   margin-left: 50px;
@@ -239,6 +369,20 @@
   color: whitesmoke !important;
 }
 
+.bodypajaritos .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodypajaritos h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 100px;
+}
+
 .bodypajaritos .block {
   width: 100%;
   margin-left: 100px;
@@ -246,4 +390,11 @@
   display: grid;
   padding: 20px;
   overflow: auto;
+}
+
+.bodypajaritos .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
 }/*# sourceMappingURL=styles.css.map */
