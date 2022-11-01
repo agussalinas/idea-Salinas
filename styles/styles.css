@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .cuerpo2 {
   background-color: rgb(150, 0, 0);
+  justify-content: space-around;
 }
 .cuerpo2 .texto {
   color: black;
@@ -31,11 +32,12 @@
 
 .cuerpo2 .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .cuerpo2 .footer {
@@ -52,7 +54,7 @@
 .cuerpo .row {
   align-items: center;
   text-align: center;
-  justify-content: center;
+  align-content: center;
   margin-left: 100px;
   color: black;
 }
@@ -65,6 +67,14 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.cuerpo .card {
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  align-content: space-around;
+}
+
 .cuerpo .nav-item a {
   color: white;
 }
@@ -74,6 +84,10 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   margin-top: 100px;
+}
+
+.cuerpo .footer .li {
+  color: black !important;
 }
 
 .bodyporco {
@@ -123,11 +137,12 @@
 
 .bodyporco .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .bodyporco .footer {
@@ -183,11 +198,12 @@
 
 .bodytesoro .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .bodytesoro .footer {
@@ -211,6 +227,7 @@
 .bodynov .contenedor {
   border: solid;
   border-color: black;
+  border-radius: 30px;
   background-color: rgb(64, 51, 51);
   margin-left: 150px;
   margin-top: 60px;
@@ -223,6 +240,7 @@
   height: 500px;
   overflow: auto;
   color: whitesmoke;
+  scrollbar-base-color: black;
 }
 
 .bodynov .contenedor h4 {
@@ -232,11 +250,12 @@
 
 .bodynov .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .bodynov .footer {
@@ -292,11 +311,12 @@
 
 .bodyperfume .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .bodyperfume .footer {
@@ -371,11 +391,12 @@
 
 .bodyruiseñor .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .bodyruiseñor .footer p {
@@ -431,11 +452,12 @@
 
 .bodypajaritos .block {
   width: 100%;
-  margin-left: 100px;
   margin-top: 100px;
   display: grid;
   padding: 20px;
   overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
 
 .bodypajaritos .footer {

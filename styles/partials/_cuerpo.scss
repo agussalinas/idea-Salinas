@@ -5,7 +5,7 @@
   .cuerpo .row {
     align-items: center;
     text-align: center;
-    justify-content: center;
+    align-content: center;
     margin-left: 100px;
     color: black;
   }
@@ -18,6 +18,16 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
   }
+
+ 
+  .cuerpo .card {
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+  
+  }
   
   .cuerpo .nav-item a {
     color: white;
@@ -28,4 +38,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 100px;
+
+  }
+
+  .cuerpo .footer .li {
+    color: black !important;
   }

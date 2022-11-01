@@ -1,5 +1,6 @@
 .cuerpo2 {
   background-color: rgb(150, 0, 0);
+  justify-content: space-around;
 
   .texto{
       color: black;
@@ -36,11 +37,13 @@
 
 .cuerpo2 .block {
     width: 100%;
-    margin-left: 100px;
     margin-top: 100px;
     display: grid;
     padding: 20px;
     overflow: auto;
+    align-content: space-around;
+    text-align: right;
+
   }
 
   .cuerpo2 .footer {

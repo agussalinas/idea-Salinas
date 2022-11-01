@@ -70,11 +70,13 @@
 
   .bodyruiseñor .block {
     width: 100%;
-    margin-left: 100px;
     margin-top: 100px;
     display: grid;
     padding: 20px;
     overflow: auto;
+    align-content: space-around;
+    text-align: right;
+
 
   }
 

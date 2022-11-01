@@ -13,6 +13,7 @@
   .bodynov .contenedor {
     border: solid;
     border-color: black;
+    border-radius: 30px;
     background-color: rgb(64, 51, 51);
     margin-left: 150px;
     margin-top: 60px;
@@ -25,7 +26,10 @@
     height: 500px;
     overflow: auto;
     color: whitesmoke;
+    scrollbar-base-color: black;
+    
   }
+
   .bodynov .contenedor h4 {
     color: whitesmoke;
     font-size: 30px;
@@ -35,11 +39,13 @@
 
   .bodynov .block {
     width: 100%;
-    margin-left: 100px;
     margin-top: 100px;
     display: grid;
     padding: 20px;
     overflow: auto;
+    align-content: space-around;
+    text-align: right;
+
   }
 
   .bodynov .footer {
