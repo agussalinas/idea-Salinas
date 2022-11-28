@@ -86,10 +86,6 @@
   margin-top: 100px;
 }
 
-.cuerpo .footer .li {
-  color: black !important;
-}
-
 .bodyporco {
   background-color: red;
 }
@@ -241,6 +237,7 @@
   overflow: auto;
   color: whitesmoke;
   scrollbar-base-color: black;
+  border-style: groove;
 }
 
 .bodynov .contenedor h4 {
