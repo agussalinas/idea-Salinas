@@ -40,6 +40,15 @@
   text-align: right;
 }
 
+.cuerpo2 main img {
+  border-color: black;
+  border: solid;
+  border-radius: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
 .cuerpo2 .footer {
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
