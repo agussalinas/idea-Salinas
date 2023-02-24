@@ -3,6 +3,12 @@
   background-color: rgb(150, 0, 0);
   justify-content: space-around;
 }
+.cuerpo2 .container-fluid li {
+  margin-left: 0px;
+}
+.cuerpo2 .dropdown-menu li {
+  margin-left: 0px;
+}
 .cuerpo2 .texto {
   color: black;
   font-size: large;
@@ -98,6 +104,12 @@
 .bodyporco {
   background-color: red;
 }
+.bodyporco .container-fluid li {
+  margin-left: 0px;
+}
+.bodyporco .dropdown-menu li {
+  margin-left: 0px;
+}
 .bodyporco .textop {
   color: aliceblue;
   justify-content: center;
@@ -160,6 +172,18 @@
 .bodytesoro {
   background-color: black;
 }
+.bodytesoro .container-fluid li {
+  margin-left: 0px;
+}
+.bodytesoro .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodytesoro .container-fluid li {
+  margin-left: 0px;
+}
+.bodytesoro .dropdown-menu li {
+  margin-left: 0px;
+}
 .bodytesoro .texto {
   color: aliceblue;
   font-size: large;
@@ -217,6 +241,9 @@
   text-align: center;
   margin-top: 100px;
 }
+.bodytesoro .footer p {
+  text-align: center;
+}
 
 .bodynov {
   background-image: linear-gradient(rgb(58, 39, 39), black);
@@ -273,6 +300,12 @@
 
 .bodyperfume {
   background: linear-gradient(gold, black);
+}
+.bodyperfume .container-fluid li {
+  margin-left: 0px;
+}
+.bodyperfume .dropdown-menu li {
+  margin-left: 0px;
 }
 .bodyperfume .texto {
   color: aliceblue;
@@ -334,6 +367,12 @@
 
 .bodyruiseñor {
   background: linear-gradient(white, black);
+}
+.bodyruiseñor .container-fluid li {
+  margin-left: 0px;
+}
+.bodyruiseñor .dropdown-menu li {
+  margin-left: 0px;
 }
 .bodyruiseñor .texto {
   color: black;
@@ -414,6 +453,12 @@
 
 .bodypajaritos {
   background: linear-gradient(lightblue, grey);
+}
+.bodypajaritos .container-fluid li {
+  margin-left: 0px;
+}
+.bodypajaritos .dropdown-menu li {
+  margin-left: 0px;
 }
 .bodypajaritos .texto {
   color: black;

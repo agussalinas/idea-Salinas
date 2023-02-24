@@ -1,5 +1,18 @@
 .bodyporco {
   background-color: red;
+
+  .container-fluid {
+    li {
+      margin-left: 0px;
+    }
+  }
+
+  .dropdown-menu {
+    li {
+      margin-left: 0px;
+    }
+  }
+  
   .textop{
       color: aliceblue;
       justify-content: center;

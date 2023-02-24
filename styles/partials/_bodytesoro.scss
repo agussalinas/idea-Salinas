@@ -1,6 +1,30 @@
 .bodytesoro {
     background-color: black;
 
+    .container-fluid {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .container-fluid {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        margin-left: 0px;
+      }
+    }
+
     .texto{
         color: aliceblue;
         font-size: large;
@@ -66,4 +90,8 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 100px;
+
+    p {
+      text-align: center;
+    }
   }

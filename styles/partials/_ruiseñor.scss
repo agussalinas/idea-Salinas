@@ -1,6 +1,18 @@
 .bodyruiseñor {
     background: linear-gradient(white,black);
 
+    .container-fluid {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        margin-left: 0px;
+      }
+    }
+
     .texto{
         color: black;
         font-size: large;
