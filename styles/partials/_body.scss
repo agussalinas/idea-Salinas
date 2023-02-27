@@ -1,6 +1,7 @@
 .body {
-  background-color: rgb(150, 0, 0);
-  justify-content: space-around;
+  background: linear-gradient(black, rgb(148, 1, 1));
+  justify-content: center;
+
 
   .container-fluid {
     li {
@@ -56,6 +57,11 @@
     align-content: space-around;
     text-align: right;
 
+  }
+
+  .body .cuadro {
+    align-items: center;
+    margin-left: 40px;
   }
 
   .body main img {
