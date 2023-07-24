@@ -9,12 +9,12 @@ if (continuar_o_finalizar != 2) {
     corroborar_valores = prompt("Tu contrato comenzo hace menos de 12 meses. Responde SI o NO ");
 }
 
-if (corroborar_valores == "NO") {
+else if (corroborar_valores == "NO") {
 
     alert("Corresponde pagar el valor inicial sumado al 50 % de dicho monto");
 }
 
-  else if(corroborar_valores == "SI") {
+  else if(corroborar_valores = "SI") {
 
         alert("El valor inicial no sufre modificaciones");
     }
