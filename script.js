@@ -1,25 +1,21 @@
-//Anuncio inicial
+
 alert("CONSULTA DE MODIFICACIONES EN CONTRATO DE ALQUILER");
 
-//definimos los pasos a seguir
 let continuar_o_finalizar = prompt("Pulsa 1 para continuar o 2 para finalizar");
 
 
-let corroborar_valores; //se ingresa la opcion para iniciar o cancelar
-
-
-const periodo = [1,2,3,4];
-
-
-// se calcula a partir del 1 año de contrato, antes del año no hay aumento
-if (continuar_o_finalizar != 2) {
-    corroborar_valores = prompt("Tu contrato comenzo hace menos de 12 meses. Responde SI o NO ");
-  
+const periodo = [{ anio:1, coeficiente: "50%"},{ anio:2, coeficiente: "100%"},{ anio:3, coeficiente: "150%"},{ anio:4, coeficiente: "200%"},];
+for (coeficiente of periodo) {
+    console.log(coeficiente.anio);
+    console.log(coeficiente.coeficiente);
 }
 
 
 
- else if (continuar_o_finalizar == "2") {
+if (continuar_o_finalizar != 2) {
+    continuar_o_finalizar = prompt("Tu contrato comenzo hace menos de 12 meses. Responde SI o NO ");
+  
+} else (continuar_o_finalizar == "2") ;{
 
     alert("MUCHAS GRACIAS");
     
@@ -27,12 +23,12 @@ if (continuar_o_finalizar != 2) {
 }
 
 
-else if (corroborar_valores == "NO") {
+let corroborar_valores; 
 
-    alert("Corresponde pagar el valor inicial sumado al 50 % de dicho monto");
-}
+if (corroborar_valores == "NO") {
 
-   else if(corroborar_valores =! "SI") {
+    alert("Corresponde pagar el valor inicial sumado al 100 % de dicho monto");
+} else (corroborar_valores == "SI"); {
 
     alert("El valor inicial no sufre modificaciones");
     }
@@ -47,8 +43,7 @@ if (calcular_o_finalizar == "1") {
     monto_inicial = parseInt(prompt("Ingresa valor inicial del contrato"))
     
 
-}
-else if (calcular_o_finalizar== "2") {
+} else (calcular_o_finalizar== "2") ;{
 
     alert("MUCHAS GRACIAS");
 
@@ -85,8 +80,9 @@ while (calcular_valor != "CANCELAR") {
                console.log(monto_inicial * periodo[3], resultado);
                 }
      
-    }
-    
+    } 
+
+ 
 
 
 
