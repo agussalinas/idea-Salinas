@@ -32,7 +32,7 @@ function validarForm() {
     console.log(interpreteI);
     console.log(cantidadI);
     if (nombreI =='' || interpreteI == '' || cantidadI == '') {
-        alert('ERROR - Debe completar todos los campos para continuar');
+        console.log('ERROR - Debe completar todos los campos para continuar');
         inputNombre.focus();
         bandera = false;
     }else{
@@ -48,7 +48,7 @@ function validarForm() {
                 let formulario = e.target
                 arrayDisco.push(new Disco(nombreI, interpreteI, cantidadI)) ;
             }else{
-                alert('No se agrega el usuario')
+                console.log('No se agrega el usuario')
             }
             miFormulario.disco[1].value ='';
             miFormulario.disco[3].value ='';
