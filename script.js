@@ -1,75 +1,93 @@
 class Discos {
-    constructor(nombre, precio, interprete, cantidad) {
+    constructor(nombre, interprete, cantidad) {
         this.nombre = nombre;
-        this.precio = parseFloat(precio);
         this.interprete = interprete;
         this.cantidad = cantidad;
-        this.disponible = true;
-    }
-
-    sumarIva() {
-        return this.precio * 1.21;
-    } 
-
-    Vender() {
-        this.disponible = false;
-    }
-
-    precioSugerido() {
-        return this.precio * 1.21 * 1.25;
-    }  
-
-}
-
-var arrayDiscos = [];
-do{
-    var comprobacion = prompt('Ingrese un nombre del producto o fin para terminar de agregar');
-    if (comprobacion === "fin" || comprobacion === "FIN" || comprobacion === "Fin" ){
-        break;    
-    } else {
-        nombreD = comprobacion;
-        var precioD = propmt('Ingrese el precio del producto');
-        var interpreteD = prompt('Ingrese el detalle del producto');
-        var cantidadD = prompt('Ingrese la cantidad comprada del producto');
-        arrayDiscos.push(new Discos(nombreD, precioD, interpreteD, cantidadD));
     }
 }
-while (comprobacion !="fin" || comprobacion != "FIN" || comprobacion != "Fin")
+
+let arrayDisco = [];
+let miFormulario = document.querySelector("#formulario");
+let inputNombre = document.querySelector("#iNombre");
+
+let nombreI = formulario.disco[1].value;
+let interpreteI = formulario.disco[3].value;
+let cantidadI = formulario.disco[5].value;
+
+let contenedor = document.querySelector("#discoIngresado")
+let displayTodos = document.querySelector("#displatTodos");
+let parrafos = displayTodos.getElementsByTagName("p");
+let bandera = false;
+
+miFormulario.addEventListener("submit", agregarDiscos);
+btnMostrar.addEventListener('click', MostrarTodosLosDiscos);
+
+inputNombre.focus();
+
+function validarForm() {
+    nombreI = formulario.disco[1].value;
+    interpreteI = formulario.disco[3].value;
+    cantidadI = formulario.disco[5].value;
+    console.log(nombreI);
+    console.log(interpreteI);
+    console.log(cantidadI);
+    if (nombreI =='' || interpreteI == '' || cantidadI == '') {
+        alert('ERROR - Debe completar todos los campos para continuar');
+        inputNombre.focus();
+        bandera = false;
+    }else{
+        bandera = true;
+    }
+    }
+    function agregarDiscos(e) {
+        e.preventDefault();
+        validarForm();
+        if (bandera == true) {
+            let opcion = confirm("Esta seguro de agregar el nombre del disco");
+            if (opcion == true) {
+                let formulario = e.target
+                arrayDisco.push(new Disco(nombreI, interpreteI, cantidadI)) ;
+            }else{
+                alert('No se agrega el usuario')
+            }
+            formulario.disco[1].value ='';
+            formulario.disco[3].value ='';
+            formulario.disco[5].value ='';
+            contenedor.innerHTML = '';
+            AgregaralDOM();
+            inputNombre.focus();
+        }else{
+            inputNombre.focus();
+
+        }
+            
+    }
+
+    function AgregaralDOM() {
+        contenedor.innerHTML = `<h3> Ultimo disco Ingresado:</h3>
+        <p><strong> Nombre: </strong> ${nombreI}</p>
+        <p><strong> Interprete: </strong> ${interpreteI}</p>
+        <p><strong> Cantidad: </strong> ${cantidadI}</p>
+        <hr>`;
+
+    function MostrarTodosLosDiscos(e) {
+        e.preventDefault();
+        let i = 0;
+        displayTodos.innerHTML = '<h3> Listado de todos los discos:</h3>';
+        for (const disco of arrayDisco) {
+            dispklayTodos.innerHTML += `
+            <p><strong> Nombre: </strong> ${nombreI}</p>
+            <p><strong> Interprete: </strong> ${interpreteI}</p>
+            <p><strong> Cantidad: </strong> ${cantidadI}</p>
+            <hr>`;
+        }
+    
+    }
 
 
-console.log(arrayDiscos);
+
+    }
+        
+    
 
 
-for (let producto of arrayDiscos) {
-    let contenedor = document.createElement("div");
-    contenedor.innerHTML =  `<h3> Nombre: ${discos.nombre}</h3>
-                            <p> Precio $: ${discos.precio}</p>
-                            <p> Cantidad: ${discos.cantidad}</p>
-                            <p> Detalle: ${discos.detalle}</p> `;
-document.body.appendChild(contenedor);
-}
-
-var pocoStock = arrayDiscos.filter(Discos => discos.cantidad <= 3 );
-document.write("<h3> Lista de Productos con poco Stock (menos de 3 unidades): </h3>");
-for (let Discos of pocoStock) {
-    let contenedor = document.createElement("div");
-    contenedor.innerHTML =  `<h3> Nombre: ${discos.nombre}</h3>
-                            <p> Precio $: ${discos.precio}</p>
-                            <p> Cantidad: ${discos.cantidad}</p>
-                            <p> Detalle: ${discos.detalle}</p> `;
-Document.body.appendChild(contenedor);
-}
-
-var pocoStock = arrayProductos.filter(producto => producto.cantidad == 0 || producto.disponible == false);
-console.log(sinStock);
-document.write("<h3> Lista de Discos sin Stock (cantidad = 0 o disponible = false): </h3>");
-
-for (let Discos of sinStock) {
-    document.write("<h3> Lista de Productos con poco Stock (menos de 3 unidades): </h3>");
-    let contenedor = document.createElement("div");
-    contenedor.innerHTML =  `<h3> Nombre: ${discos.nombre}</h3>
-                             <p> Precio $: ${discos.precio}</p>
-                             <p> Cantidad: ${discos.cantidad}</p>
-                             <p> Detalle: ${discos.detalle}</p> `;
-Document.body.appendChild(contenedor);
-}
