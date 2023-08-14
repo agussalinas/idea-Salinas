@@ -10,9 +10,9 @@ let arrayDisco = [];
 let miFormulario = document.querySelector("#formulario");
 let inputNombre = document.querySelector("#iNombre");
 
-let nombreI = formulario.disco[1].value;
-let interpreteI = formulario.disco[3].value;
-let cantidadI = formulario.disco[5].value;
+let nombreI = miFormulario.disco[1].value;
+let interpreteI = miFormulario.disco[3].value;
+let cantidadI = miFormulario.disco[5].value;
 
 let contenedor = document.querySelector("#discoIngresado")
 let displayTodos = document.querySelector("#displatTodos");
@@ -25,9 +25,9 @@ btnMostrar.addEventListener('click', MostrarTodosLosDiscos);
 inputNombre.focus();
 
 function validarForm() {
-    nombreI = formulario.disco[1].value;
-    interpreteI = formulario.disco[3].value;
-    cantidadI = formulario.disco[5].value;
+    nombreI = miFormulario.disco[1].value;
+    interpreteI = miFormulario.disco[3].value;
+    cantidadI = miFormulario.disco[5].value;
     console.log(nombreI);
     console.log(interpreteI);
     console.log(cantidadI);
@@ -50,9 +50,9 @@ function validarForm() {
             }else{
                 alert('No se agrega el usuario')
             }
-            formulario.disco[1].value ='';
-            formulario.disco[3].value ='';
-            formulario.disco[5].value ='';
+            miFormulario.disco[1].value ='';
+            miFormulario.disco[3].value ='';
+            miFormulario.disco[5].value ='';
             contenedor.innerHTML = '';
             AgregaralDOM();
             inputNombre.focus();
@@ -75,7 +75,7 @@ function validarForm() {
         let i = 0;
         displayTodos.innerHTML = '<h3> Listado de todos los discos:</h3>';
         for (const disco of arrayDisco) {
-            dispklayTodos.innerHTML += `
+            displayTodos.innerHTML += `
             <p><strong> Nombre: </strong> ${nombreI}</p>
             <p><strong> Interprete: </strong> ${interpreteI}</p>
             <p><strong> Cantidad: </strong> ${cantidadI}</p>
