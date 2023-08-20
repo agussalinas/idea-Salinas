@@ -1,40 +1,202 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equi="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Tercera pre-entrega </title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+<html lange="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="keywords" content="Indio, Indio Solari, Fundamentalistas, Discos, Arte, Musica">
+    <meta name="description" content="Pagina homenaje a Carlos Alberto Solari, su estapa como redondo, como fundamentalista y solista. Un pequeño vistazo a su obra y a su lado artístico">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body class="cuerpo">
+    <nav class="navbar navbar-expand-lg bg-black bd-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"> <img src="./images/Indio.jpg" height="50px" width="100px"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pages/novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/fundamentalistas.html">Fundamentalistas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Discos
+                </a>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item" href="/pages/Eltesoro.html">El Tesoro de los Inocentes</a></li>
+                  <li><a class="dropdown-item" href="/pages/porcorex.html">Porco Rex</a></li>
+                  <li><a class="dropdown-item" href="/pages/elperfume.html">El Perfume de la Tempestad</a></li>
+                  <li><a class="dropdown-item" href="/pages/pajaritosbravos.html">Pajaritos Bravos Muchachitos</a></li>
+                  <li><a class="dropdown-item" href="/pages/ruiseñor.html">El Ruiseñor, El amor y la Muerte</a></li>
+                </ul>
+              </li>
+            </ul>
+            <a class="navbar-brand" href="https://www.instagram.com/indiosolarioficial/?hl=es" target="_blank" > <img src="./images/instagram.jpeg" height="50px" width="50px"> </a>
+            <a class="navbar-brand" href="https://es-la.facebook.com/indiosolari/" target="_blank"> <img src="./images/faceblack.jpeg" height="50px" width="50px"> </a>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="" placeholder="" aria-label="">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            <ul className="navbar-nav me-auto">  
+              <li className="nav-item " >
+                  <a id="botonCarrito" data-bs-toggle="modal" data-bs-target="#idModal" class="btn btn-secondary"><i class="fas fa-shopping-cart fa-1x"></i></a>
+              </li>
+          </ul>
 
-    </head>
-<body>
-    <h1> Tienda de vinilos</h1>
-    <h2> Consulta de Stock</h2>
-    <h3>Disco:</h3>
-    <div id="containerPrincipal">
-     <div>
-        <form id="formulario">
-            <label> Nombre:</label>
-            <input class="iText" type="text" name="nombre" id="iNombre"><br>
+          <div class="modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                  
+                </div>
+                <div class="row ml-ato">
+                  <p id="precioTotal"></p>
+                </div>
+                <div class="modal-footer">
+                  
+                  
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" data-bs-dismiss="modal" class="btn btn-success" id="botonFinalizarCompra">Finalizar Compra</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+          </script>
+          </div>
+        </div>
+      </nav>
+</header>
+<section class="row">
+  <div class="col-sm-12 col-md-12 col-lg-6">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/indio1.jpg" height="600px" width="400px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/indio2.jpg" height="600px" width="400px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/indio3.jpg" height="600px" width="400px" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6">
+  <h1>Carlos Alberto Solari (Paraná, 17 de enero de 1949), conocido como Indio Solari, es un músico argentino, miembro fundador del grupo Patricio Rey y sus Redonditos de Ricota (también conocidos como Los Redondos).
 
-                <label>Interprete</label>
-                <input class="iText" type="text" name="interprete" id="iInterprete"><br>
+    En 1976, en la ciudad de La Plata, forma Los Redondos junto a Skay Beilinson. La banda editó nueve álbumes de estudio hasta su disolución en 2001. La carrera de Solari entró en un hiatus hasta 2004 cuando presentó el primer álbum del Indio Solari y los Fundamentalistas del Aire Acondicionado titulado El tesoro de los inocentes (bingo fuel). En el 2007 lanzó su segundo disco Porco rex, en 2010 el tercero El perfume de la tempestad, en 2013 el cuarto Pajaritos, bravos muchachitos, y en 2018 el quinto El ruiseñor, el amor y la muerte. Su último recital en vivo fue en Olavarría en 2017, en el cual murieron dos personas debido a la gran cantidad de público que obtuvo. Desde entonces ha trabajado en estudio y publicado libros. En 2020, ofreció un concierto en el que participó de manera virtual mediante técnicas holográficas.
+    
+    Su voz y el uso de metáforas en sus letras lo convirtieron en un icono de la contracultura en la escena del rock argentino.[cita requerida] Su imagen pública se caracteriza por su escasa aparición6​7​ y la concesión de entrevistas solo mediante la radiocomunicación.8​ En 1995 recibió un Premio Konex, «Diploma al Mérito» como uno de los mejores cantantes de la década de su país, y nuevamente en 2015 el «Konex de Platino» al «Mejor Cantante de Rock de la década»</h1>
+</div>
+</section>
+  <section class="container2-fluid">
+    <div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-4">
+    <div class="card" style="width: 18rem;">
+      <img src="images/tapatesoro.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">EL TESORO DE LOS INOCENTES</h5>
+        <p class="card-text">Masterizado en Luzbola por Breuer´s delivery. Dedicado a Bruno y a la memoria del Capitán Ojo Muerto y de la hermosa muchacha de Los Toldos.</p>
+        <a href="pages/Eltesoro.html" class="btn btn-primary">ir</a>
+      </div>
+    </div>
+  </div>
 
-                     <label>Cantidad</label>
-                <input class="iText" type="text" name="contraseña" id="iContraseña">
-                    <div id="botones">
-                        <input type="submit" id="btnSubmit" id="" value="Confirmar">
-                        <input type="button" id="btnMostrar" id="" value="Mostrar a Todos"> 
-                        </div>
-                    </form>
-                    <div id="DiscoIngresado">
-                    </div>
-                        </div>  
-                        <div id="displayTodos">
-                        </div>
-     </div>
-     </div>
-    <script type="text/javascript" src="script.js"></script>
+<div class="col-sm-12 col-md-12 col-lg-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/tapaporco.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PORCO REX</h5>
+      <p class="card-text">Grabado, mezclado y masterizado en Luzbola. Dedicado a Nano y Alejo con excepción de “Y mientras tanto el sol se muere” que es una canción de amor para Viruta.</p>
+      <a href="pages/porcorex.html" class="btn btn-primary">ir</a>
+    </div>
+  </div>
+</div>
+  <div class="col-sm-12 col-md-12 col-lg-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/tapaperfume.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">EL PERFUME DE LA TEMPESTAD</h5>
+      <p class="card-text">Música, letra e ilustraciones por Caballo Loco. Dig-it en arte y formato de tapa: Matías. Grabado, mezclado y masterizado en Luzbola. LUZBOLA © 2010.</p>
+      <a href="pages/elperfume.html" class="btn btn-primary">ir</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/tapapajaros.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PAJARITOS, BRAVOS MUCHACHITOS</h5>
+      <p class="card-text">Grabado, mezclado y masterizado en Luzbola. Dedicado al inimitable Iche Gómez. LUZBOLA©2013.</p>
+      <a href="pages/pajaritosbravos.html" class="btn btn-primary">ir</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-4">
+  <div class="card" style="width: 18rem;">
+    <a class="nav-link" href="../pages/fundamentalistas.html"><img src="images/fundablack.jpg" class="card-img-top" alt="..."></a>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-4">
+  <div class="card" style="width: 18rem;">
+    <img src="images/taparuiseñor.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">EL RUISEÑOR, EL AMOR Y LA MUERTE</h5>
+      <p class="card-text">Grabado, mezclado y masterizado en Luzbola. LUZBOLA©2018.</p>
+      <a href="pages/ruiseñor.html" class="btn btn-primary">ir</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+  <a href="https://twitter.com/indio_solari_ok" target="_blank"> <img src="./images/twitterpie.jpg" class="rounded" height="40px" width="40px"> </a>
+  <a href="https://www.youtube.com/channel/UCzq3uuDGcV7U3l39tqRMwhA" target="_blank"> <img src="./images/youtube.jpg" height="50px" width="50px"> </a>
+  <a href="https://es-la.facebook.com/indiosolari/" target="_blank"> <img src="./images/facepie.png" height="50px" width="50px"> </a>
+  <a href="https://www.instagram.com/indiosolarioficial/?hl=es" target="_blank"> <img src="./images/instagram.jpeg" height="50px" width="50px"> </a>
+         <p>&copy Agustín Salinas</p>
+ </footer>
+</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="Discos.js"></script>
+<script src="Records.js"></script>
+<script src="data.js"></script>
 </body>
 </html>

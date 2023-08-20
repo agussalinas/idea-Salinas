@@ -1,119 +1,598 @@
-.cabeza .tittle {
-  color: colorT;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: center;
-  margin-bottom: -50px;
-  transition: all 0.5s easy;
+@charset "UTF-8";
+.cuerpo2 {
+  background-color: rgb(150, 0, 0);
+  justify-content: space-around;
 }
-.cabeza ul {
-  display: flex;
-  justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  height: 30px;
-  list-style: none;
-  border-radius: 5px;
-  padding: 50px;
-  text-align: center;
-  margin-bottom: 60px;
+.cuerpo2 .container-fluid li {
+  margin-left: 0px;
 }
-.cabeza ul li {
+.cuerpo2 .dropdown-menu li {
+  margin-left: 0px;
+}
+.cuerpo2 .texto {
   color: black;
-  background-image: linear-gradient(to left, lightblue, pink, black);
-  justify-content: space-between;
-  width: 200px;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.cuerpo2 h1 {
   text-align: center;
-  display: inline-block;
-  padding: 20px;
-  border-color: lightblue;
-  border-style: groove;
-  border-radius: 5px;
-}
-.cabeza ul li a {
-  color: black;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.buscador {
-  font-size: medium;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin-left: 20px;
-  display: inlineblock;
-}
-
-.desarrollo .btn-click {
-  background-image: radial-gradient(lightblue, black);
-  font-size: 1.5rem;
-  color: #ffffff;
-  border: 0;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  cursor: pointer;
-}
-.desarrollo .articulo p {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.desarrollo .articulo p .articulo__contenido {
   font-style: oblique;
+  color: red;
+}
+.cuerpo2 h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.cuerpo2 p {
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cuerpo2 li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.cuerpo2 a {
+  color: whitesmoke !important;
+}
+
+.cuerpo2 .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.cuerpo2 main img {
+  border-color: black;
+  border: solid;
+  border-radius: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.cuerpo2 .footer {
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  margin-top: 100px;
 }
-.desarrollo .articulo p .articulo__contenido articulo__formulario {
-  font-style: normal;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: end;
-  display: inline;
+
+.cuerpo {
+  background-color: black;
 }
-.desarrollo .button {
-  background-color: lightgrey;
+
+.cuerpo .row {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-left: 100px;
   color: black;
+}
+
+.cuerpo h1 {
+  color: whitesmoke;
+  text-align: justify;
+  font-size: medium;
+  margin-right: 50px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  border: black;
-  padding: 5px;
-  border-radius: 5px;
-  width: 80px;
-  cursor: pointer;
 }
-.desarrollo .imagen {
-  display: flexbox;
-  margin-left: 60px;
-  margin-top: 40px;
-  cursor: pointer;
+
+.cuerpo .card {
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  align-content: space-around;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.cuerpo .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3%);
+}
+
+.cuerpo .nav-item a {
+  color: white;
+}
+
+.cuerpo .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyporco {
+  background-color: red;
+}
+.bodyporco .container-fluid li {
+  margin-left: 0px;
+}
+.bodyporco .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodyporco .textop {
+  color: aliceblue;
+  justify-content: center;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyporco h1 {
+  text-align: center;
+  font-style: oblique;
+}
+.bodyporco h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bodyporco p {
+  color: whitesmoke;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bodyporco li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodyporco a {
+  color: whitesmoke !important;
+}
+
+.bodyporco .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyporco h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: large;
+  margin-top: 100px;
+}
+
+.bodyporco .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.bodyporco .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodytesoro {
+  background-color: black;
+}
+.bodytesoro .container-fluid li {
+  margin-left: 0px;
+}
+.bodytesoro .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodytesoro .container-fluid li {
+  margin-left: 0px;
+}
+.bodytesoro .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodytesoro .texto {
+  color: aliceblue;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodytesoro h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.bodytesoro h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bodytesoro p {
+  color: whitesmoke;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bodytesoro li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodytesoro a {
+  color: whitesmoke !important;
+}
+
+.bodytesoro .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodytesoro h3 {
+  margin-top: 100px;
+  color: lightgray;
+  font-style: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bodytesoro .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.bodytesoro .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+.bodytesoro .footer p {
   text-align: center;
 }
-.desarrollo .imagen__b {
-  margin-left: 30px;
-  margin-top: 40px;
-  cursor: pointer;
-  text-align: center;
+
+.bodynov {
+  background-image: linear-gradient(rgb(58, 39, 39), black);
 }
-.desarrollo .contenedor {
+.bodynov a {
+  color: whitesmoke !important;
+}
+
+.bodynov .nav-item a {
+  color: white;
+}
+
+.bodynov .contenedor {
   border: solid;
-  background-image: linear-gradient(to right, white, blue);
+  border-color: black;
+  border-radius: 30px;
+  background-color: rgb(64, 51, 51);
   margin-left: 150px;
   margin-top: 60px;
   padding: 10px;
   display: inline-block;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
   width: 1000px;
-  height: 100px;
+  height: 500px;
   overflow: auto;
+  color: whitesmoke;
+  scrollbar-base-color: black;
+  border-style: groove;
 }
 
-.piedepagina {
-  color: black;
-  text-align: end;
+.bodynov .contenedor h4 {
+  color: whitesmoke;
+  font-size: 30px;
 }
-.piedepagina .piedepagina__links {
-  font-style: oblique;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin-top: 10px;
+
+.bodynov .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
 }
-.piedepagina .piedepagina__links .piedepagina__links--inicio {
+
+.bodynov .footer {
   color: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyperfume {
+  background: linear-gradient(gold, black);
+}
+.bodyperfume .container-fluid li {
+  margin-left: 0px;
+}
+.bodyperfume .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodyperfume .texto {
+  color: aliceblue;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyperfume h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.bodyperfume h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bodyperfume p {
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bodyperfume li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodyperfume a {
+  color: whitesmoke !important;
+}
+
+.bodyperfume .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyperfume h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 100px;
+}
+
+.bodyperfume .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.bodyperfume .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyruiseñor {
+  background: linear-gradient(white, black);
+}
+.bodyruiseñor .container-fluid li {
+  margin-left: 0px;
+}
+.bodyruiseñor .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodyruiseñor .texto {
+  color: black;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyruiseñor h1 {
+  text-align: center;
+  font-style: oblique;
+  color: black !important;
+}
+.bodyruiseñor h1 a {
+  color: black;
+}
+.bodyruiseñor h2 {
+  text-align: center;
+  color: black;
+}
+.bodyruiseñor p {
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodyruiseñor li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodyruiseñor a {
+  color: whitesmoke !important;
+}
+
+.bodyruiseñor .cabeza h1 a {
+  color: black !important;
+}
+
+.bodyruiseñor .cabeza .row a {
+  color: black !important;
+}
+
+.bodyruiseñor h3 {
+  color: black;
+  font-size: medium;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.bodyruiseñor .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodyruiseñor h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: larger;
+  margin-top: 100px;
+}
+
+.bodyruiseñor .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.bodyruiseñor .footer p {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodypajaritos {
+  background: linear-gradient(lightblue, grey);
+}
+.bodypajaritos .container-fluid li {
+  margin-left: 0px;
+}
+.bodypajaritos .dropdown-menu li {
+  margin-left: 0px;
+}
+.bodypajaritos .texto {
+  color: black;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.bodypajaritos h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.bodypajaritos h2 {
+  text-align: center;
+  color: rgb(74, 52, 52);
+}
+.bodypajaritos p {
+  color: rgb(74, 52, 52);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bodypajaritos li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.bodypajaritos a {
+  color: rgb(74, 52, 52) !important;
+}
+
+.bodypajaritos .carousel-item {
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bodypajaritos h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: rgb(74, 52, 52);
+  font-size: larger;
+  margin-top: 100px;
+}
+
+.bodypajaritos .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.bodypajaritos .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.body {
+  background: linear-gradient(black, rgb(148, 1, 1));
+  justify-content: center;
+}
+.body .container-fluid li {
+  margin-left: 0px;
+}
+.body .dropdown-menu li {
+  margin-left: 0px;
+}
+.body .texto {
+  color: black;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.body h1 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+.body h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+.body p {
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.body li {
+  margin-left: 50px;
+  color: whitesmoke;
+}
+.body a {
+  color: whitesmoke !important;
+}
+
+.body .block {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  padding: 20px;
+  overflow: auto;
+  align-content: space-around;
+  text-align: right;
+}
+
+.body .cuadro {
+  align-items: center;
+  margin-left: 40px;
+}
+
+.body main img {
+  border-color: black;
+  border: solid;
+  border-radius: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.body .footer {
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin-top: 100px;
+
+  
 }/*# sourceMappingURL=styles.css.map */

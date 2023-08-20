@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "autor": "El Tesoro de los Inocentes",
+        "año": "2004",
+        "precio": 5000,
+        "imagen": "tapatesoro.jpg"
+    },
+    {
+        "id": 2,
+        "autor": "Porco Rex",
+        "año": "2007",
+        "precio": 9500,
+        "imagen": "tapaporco.jpg"
+    },
+    {
+        "id": 3,
+        "autor": "El perfume de la Tempestad",
+        "año": "2010",
+        "precio": 11500,
+        "imagen": "tapaperfume.jpg"
+    },
+    {
+        "id": 4,
+        "autor": "Pajaritos, Bravos Muchachitos",
+        "año": "2013",
+        "precio": 4600,
+        "imagen": "tapapajaritos.jpg"
+    },
+    {
+        "id": 5,
+        "autor": "El Ruiseñor, El Amor y la Muerte",
+        "año": "2018",
+        "precio": 7500,
+        "imagen": "taparuiseñor.jpg"
+    }
+]

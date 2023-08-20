@@ -1,0 +1,57 @@
+.bodynov {
+    background-image: linear-gradient(rgb(58, 39, 39), black);
+    a {
+      color: whitesmoke !important;
+    }
+
+  }
+
+  .bodynov .nav-item a {
+    color: white;
+  }
+
+  .bodynov .contenedor {
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    background-color: rgb(64, 51, 51);
+    margin-left: 150px;
+    margin-top: 60px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: justify;
+    width: 1000px;
+    height: 500px;
+    overflow: auto;
+    color: whitesmoke;
+    scrollbar-base-color: black;
+    border-style: groove;
+    
+  }
+
+  .bodynov .contenedor h4 {
+    color: whitesmoke;
+    font-size: 30px;
+  }
+
+  
+
+  .bodynov .block {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
+    align-content: space-around;
+    text-align: right;
+
+  }
+
+  .bodynov .footer {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 100px;
+  }

@@ -1,0 +1,97 @@
+.bodytesoro {
+    background-color: black;
+
+    .container-fluid {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .container-fluid {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .dropdown-menu {
+      li {
+        margin-left: 0px;
+      }
+    }
+
+    .texto{
+        color: aliceblue;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h1 {
+      text-align: center;
+      font-style:oblique;
+      color: red;
+      }
+      
+      h2 {
+        text-align: center;
+        color: whitesmoke;
+      }
+      
+      p {
+       color: whitesmoke;
+       text-align: justify;
+       margin-left: 50px;
+       margin-right: 50px;
+      }
+      
+      li {
+        margin-left: 50px;
+        color: whitesmoke;
+      }
+      
+      a {
+        color: whitesmoke !important;
+      }
+  }
+  
+
+  .bodytesoro .carousel-item {
+    align-content: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .bodytesoro h3 {
+    margin-top: 100px;
+   color: lightgray;
+   font-style: inherit;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .bodytesoro .block {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    overflow: auto;
+    align-content: space-around;
+    text-align: right;
+
+  }
+
+  .bodytesoro .footer {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 100px;
+
+    p {
+      text-align: center;
+    }
+  }
