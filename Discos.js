@@ -6,7 +6,7 @@ if (localStorage.getItem("carrito")) {
     localStorage.setItem("carrito", JSON.stringify(productosEnCarrito))
 }
 
-function getdisco() {
+function getDisco() {
     return fetch('./data.json').then(response => response.json())
 }
 
@@ -50,7 +50,7 @@ function ordenarAlfabeticamente(array) {
 }
 
 let divProductos = document.getElementById("productos")
-let btnGuardarLibro = document.getElementById("guardarproductoBtn")
+let btnGuardarDisco = document.getElementById("guardarproductoBtn")
 let buscador = document.getElementById("buscador")
 let btnVerCatalogo = document.getElementById("verCatalogo")
 let btnOcultarCatalogo = document.getElementById("ocultarCatalogo")
@@ -63,10 +63,10 @@ function mostrarCatalogo(array) {
     divProductos.innerHTML = ""
 
     for (const disco of array) {
-        let nuevoLibro = document.createElement("div")
-        nuevoLibro.classList.add("col-12", "col-md-6", "col-lg-4", "my-4")
-        nuevoLibro.innerHTML = `<div id="${libro.id}" class="card" style="width: 18rem;">
-        <img class="card-img-top img-fluid" style="height: 200px;"src="images/${disco.imagen}" alt="${disco.titulo} de ${libro.año}">
+        let nuevoDisco = document.createElement("div")
+        nuevoDisco.classList.add("col-12", "col-md-6", "col-lg-4", "my-4")
+        nuevoDisco.innerHTML = `<div id="${disco.id}" class="card" style="width: 18rem;">
+        <img class="card-img-top img-fluid" style="height: 200px;"src="images/${disco.imagen}" alt="${disco.titulo} de ${disco.año}">
         <div class="card-body">
             <h4 class="card-title">${disco.titulo}</h4>
             <p>Autor: ${disco.año}</p>
@@ -74,17 +74,17 @@ function mostrarCatalogo(array) {
         <button id="agregarBtn${disco.id}" class="btn btn-outline-success">Agregar al carrito</button>
         </div>
 </div>`
-        divProductos.appendChild(nuevoLibro)
+        divProductos.appendChild(nuevoDisco)
         let btnAgregar = document.getElementById(`agregarBtn${disco.id}`)
 
         btnAgregar.addEventListener("click", () => {
-            agregarAlCarrito(libro)
+            agregarAlCarrito(disco)
         })
     }
 }
 
-function agregarAlCarrito(libro) {
-    productosEnCarrito.push(libro)
+function agregarAlCarrito(disco) {
+    productosEnCarrito.push(disco)
     localStorage.setItem("carrito", JSON.stringify(productosEnCarrito))
 }
 
@@ -118,11 +118,11 @@ function cargarProductosCarrito(array) {
 
 }
 
-function cargardisco(array) {
+function cargarDisco(array) {
     let inputTitulo = document.getElementById("tituloInput")
     let inputPrecio = document.getElementById("precioInput")
 
-    let discoCreado = new disco(array.length + 1, inputAutor.value, inputTitulo.value, parseInt(inputPrecio.value), "libroNuevo.jpg")
+    let discoCreado = new disco(array.length + 1, inputAutor.value, inputTitulo.value, parseInt(inputPrecio.value), "disconuevo.jpg")
     array.push(libroCreado)
     localStorage.setItem("estanteria", JSON.stringify(array))
     mostrarCatalogo(array)
@@ -131,7 +131,7 @@ function cargardisco(array) {
 }
 
 btnGuardardisco.addEventListener("click", () => {
-    cargarLibro(estanteria)
+    cargarDisco(estanteria)
 })
 
 buscador.addEventListener("input", () => {
@@ -159,7 +159,7 @@ selectOrden.addEventListener("change", () => {
     }
 })
 
-getdisco().then(discos => {
+getDisco().then(discos => {
     mostrarCatalogo(discos);
    
 });
